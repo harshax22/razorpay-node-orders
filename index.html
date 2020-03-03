@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Razorpay API</title>
+    </head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        </style>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">Razorpay API Demo</h1>
+            <p class="lead">Orders API Demo</p>
+            <hr class="my-4">
+            <p>A simple GET request Orders API response.</p>
+            <form method="POST" action="/">
+                <p>Get an Order ID response</p>
+                <p>For Ex: Put one of these as razorpay_order_ids in the input field</p>
+                <p>Example Orders: <strong>order_EM9cZhf6OAzVD8</strong>, <strong>order_ENdPF2ABa9UAm5</strong> and <strong>order_ENdhxC164l4RiO</strong></p>
+                <label for="endpoint"><span>Endpoint: https://api.razorpay.com/v1/orders</span></label>
+                <div class="form-group col-lg-4">  
+                <input id="endpoint" class="form-control" type="text" name="apiEndpoint" placeholder="enter razorpay_order_id">
+            </div>  
+                <button type="submit" class="btn btn-primary">Get Order Details</button>
+            </form>
+           <strong><hr></strong>
+           <p>Create a new Order ID by making a POST request</p>
+            <a class="btn btn-primary" href="/create" role="button">Create a New Order</a>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Razorpay API</title>
+    </head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    </style>
+    <body>
+      <div class="jumbotron">
+        <form method="POST" action="/create">
+            <p class="lead"><strong>Create an Order ID</strong></p>
+
+            <label for="create-endpoint" class="lead"><span><strong>Enter the order details here:</span></strong></label>  
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <div class="form-group col-lg-4">  
+              <input id="create-endpoint" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" type="number" name="orderAmount" placeholder="Amount(For Ex: 1, 2, 3...)">
+              </div>
+             </div>
+
+             <div class="input-group mb-3">
+              <div class="input-group-prepend">
+              </div>
+              <div class="form-group col-lg-4">
+              <input id="create-endpoint" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" type="text" name="orderCurrency" placeholder="Currency(For Ex: INR, USD, AUD...)">
+              </div>
+             </div>
+             <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+       </div>
+    </body>
+    
+</html>
