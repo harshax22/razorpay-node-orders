@@ -58,7 +58,6 @@ app.post('/create', (req, res) => {
     </p>
     <h4>You can use the newly created order_id to make a GET request back in the home page</h4>
     <a class="btn btn-primary" href="/" role="button">Back to Home</a>
-    <p class="note"><strong>Note: </strong>The Razorpay API Keys and Secret used to create this application belong to a test account so these orders would not be visible in your dashboard.</p>
     </div>
     `)
     
