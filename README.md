@@ -21,6 +21,7 @@ Step 2: Once the dependencies are installed run the following command to launch 
 ```
 node app.js
 ```
+Step 3: Visit localhost:8050 to view the application
 
 ### Deployment
 
